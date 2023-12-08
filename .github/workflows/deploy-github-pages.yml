@@ -2,8 +2,9 @@ name: Deploy Github Pages
 
 # Déclanche le déploiment à chaque push sur la branch main
 on:
-  branches:
-    - main
+  push:
+    branches:
+      - main
 
   # action manuel pour éxecuter l'action
   # workflow_dispatch:
